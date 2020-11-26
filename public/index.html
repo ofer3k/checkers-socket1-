@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Checkers</title>
+    <link rel='stylesheet' href='checkers.css'>
+  </head>
+  <body>
+    <div class='login-screen'>
+      <input id="nameInput" class='login-screen__input' type='text' readonly placeholder='Enter a username'>
+    </div>
+    <canvas id="game-board" class="game-canvas" height="600" width="600"></canvas>
+    <div id="side-info" class="side-info">
+      
+    </div>
+
+    <script src="./jquery-3.2.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <script src='/draw-game.js'></script>
+  </body>
+</html>
